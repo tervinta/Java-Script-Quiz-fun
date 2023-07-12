@@ -1,0 +1,97 @@
+:root {
+  --blue: #2196f3;
+  --light-blue: #4dabf5;
+  --orange: #ff9100;
+  --dark: #ffffff;
+}
+
+/* Reset */
+* {
+  padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--orange);
+}
+
+a:hover {
+  color: var(--light-blue);
+}
+
+span {
+  display: inline;
+  color: #ff1744;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.container-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.container-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+h2 {
+  color: var(--blue);
+}
+
+#text,
+#answer {
+  text-align: center;
+}
+
+button {
+  margin-top: 1.3em;
+  background-color: var(--blue);
+  color: white;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  min-width: 150px;
+}
+
+button:hover {
+  background-color: var(--light-blue);
+}
+
+button:active {
+  background-color:#1769aa ;
+}
+
+input {
+    border-style:dashed ;
+    padding :10px ;
+}
+@media screen and (max-width :768px) {
+    .container, #text{
+        margin :0 auto ;
+    }
+}
