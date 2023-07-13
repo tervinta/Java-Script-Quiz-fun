@@ -15,11 +15,11 @@ A timed quiz on JavaScript fundamentals that stores high scores.
 
 ## GitHub Pages
 
-add github pages
+https://tervinta.github.io/Java-Script-Quiz-fun/
 
 ## GitHub Repository
 
-add github repo
+https://github.com/tervinta/Java-Script-Quiz-fun.git
 
 
 ## License
